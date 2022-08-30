@@ -2,9 +2,33 @@
 
 ## Database tables/models (M)
 Theater
+    - name
+    - steet_address
+Room
+    - room_no
+    - capacity: integer
+    - theater_id: integer
 Movie
+    - name
+    - description
+    - rating
+    - runtime
+    - genre
+    - release_date: datetime
 Showtime
+    - movie_id: integer
+    - start_time: datetime
+    - end_time: datetime
+Ticket
+    - movie_id: integer
+    - showtime_id: integer
+    - seat_id: integer
+    - price: integer
 Seat
+    - movie_id: integer
+    - room_id: integer
+    - available: boolean
+    - is_accessible: boolean
 Customer
 
 ## Model Methods
