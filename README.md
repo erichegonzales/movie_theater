@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Database tables/models (M)
+Theater
+Movie
+Showtime
+Seat
+Customer
 
-Things you may want to cover:
+## Model Methods
+We want to be able to call these methods and get the expected results.
+If we do this, then we know that our database
+theaters => Theater.all
+theater.movies => [list of movies]
+movie.showtimes => [list of showtimes]
+showtime.tickets => [list of tickets]
+ticket.seat => seat
 
-* Ruby version
+## Controllers (C)
+Theaters
+Movies
+Showtimes
+Seats
 
-* System dependencies
+## View - ReactJS (V)
+exists in the '/client folder
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
